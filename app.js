@@ -75,7 +75,7 @@
             // days[index] = ''
             // daysMin[index] = ''
             // daysMax[index] = ''
-        
+        // let cityName = "karachi"
             
         let promise = await fetch(`https://api.weatherapi.com/v1/forecast.json?key=2a9d4ec9538442959fc122840240206&q=${cityName}&days=7`)
             

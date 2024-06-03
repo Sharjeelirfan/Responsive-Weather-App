@@ -211,11 +211,6 @@ header{
     margin-right: 30%;
     border-radius: 20px;
     display: none;
-
-
-
-
-
 }
 #errordiv{
     font-size: 50px;
@@ -247,6 +242,18 @@ header{
     #formDiv{
         margin-left: -20px;
     }
+    #errordiv{
+        /* padding-right: 30px;  */
+        margin-left: 20%;
+        margin-right: 20%;
+        margin-top: 80px;
+        font-size: 60px;
+
+    }
+    #loading{
+        margin-left: 10%;
+        margin-right: 10%;
+    }
 }
 @media (min-width:900px) and (max-width:1023px){
     body{
@@ -262,7 +269,18 @@ header{
         font-size: 40px;
         margin-top: 5px;
     }
+    #errordiv{
+        /* padding-right: 30px;  */
+        margin-left: 20%;
+        margin-right: 20%;
+        margin-top: 80px;
+        font-size: 60px;
 
+    }
+    #loading{
+        margin-left: 10%;
+        margin-right: 10%;
+    }
     
 }
 @media (min-width:769px) and (max-width:899.5px){
@@ -281,6 +299,21 @@ header{
     #formDiv{
         margin-left: 60px;
     }
+    #errordiv{
+        /* padding-right: 30px;  */
+        margin-left: 20%;
+        margin-right: 20%;
+        margin-top: 80px;
+        font-size: 60px;
+
+        
+    }
+    #loading{
+        font-size: 60px;
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+    
 }
 @media (min-width:581px) and (max-width:768px){
     body{
@@ -317,6 +350,22 @@ header{
     #temp{
         margin-top: 40px;
     }
+    #errordiv{
+        /* padding-right: 30px;  */
+        margin-left: 20%;
+        margin-right: 20%;
+        margin-top: 80px;
+        font-size: 30px;
+
+    }
+    #loading{
+        font-size: 50px;
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+
+
+
 }
 @media (min-width:481px) and (max-width:580px){
     body{
@@ -380,6 +429,19 @@ header{
         margin-left: 20px;
         margin-top: 20px;
     }
+    #errordiv{
+        /* padding-right: 30px;  */
+        margin-left: 20%;
+        margin-right: 20%;
+        margin-top: 80px;
+        font-size: 30px;
+
+    }
+    #loading{
+        font-size: 60px;
+        margin-left: 10%;
+        margin-right: 10%;
+    }
 }
 @media (min-width:300px) and (max-width:480px){
     body{
@@ -401,7 +463,7 @@ header{
     }
     #input{
         width: 100%;
-        margin-left: -60px;
+        margin-left: -70px;
     }
     #btn{
         width: 15%;
@@ -431,6 +493,20 @@ header{
         font-size: 50px;
         margin-left: 20px;
         /* margin-top: 20px; */
+    }
+    #loading{
+        font-size: 40px;
+        margin-left: 20px;
+        margin-right: 20px;
+
+    }
+    #errordiv{
+        /* padding-right: 30px;  */
+        margin-left: 20%;
+        margin-right: 20%;
+        margin-top: 80px;
+        font-size: 30px;
+
     }
 
 }
