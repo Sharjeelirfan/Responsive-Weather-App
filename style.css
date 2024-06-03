@@ -102,7 +102,7 @@ header{
     color: white;
     margin-left: 10%;
     margin-right: 10%;
-    margin-top: 30px;
+    margin-top: 100px;
     /* border: 2px solid; */
 }
 #right{
@@ -156,8 +156,20 @@ header{
     margin-top: 70px;
     color: rgb(255, 255, 255);
     overflow-x: scroll;
+    overflow-y: hidden;
     border: 2px solid;
 }
+
+
+#forcast::-webkit-scrollbar {
+    height: 2px;
+  }
+  #forcast::-webkit-scrollbar-track {
+    background-color: #794312
+  }
+  #forcast::-webkit-scrollbar-thumb {
+    background-color: rgb(0, 162, 255);
+  }
 .oldWeather{
     height: 200px;
     min-width: 150px;
@@ -174,18 +186,53 @@ header{
 
 }
 .day{
-    font-size: 35px;
+    font-size: 22px;
     margin-top: 10px;
 }
 .temp1{
     font-size: 35px;
-    margin-top: 20px;
+    margin-top: 10px;
 }
 .temp2{
     font-size: 35px;
-    margin-top: 15px;
+    margin-top: 4px;
 }
+#loading{
+    color: black;
+    font-size: 100px;
+    text-align: center;
+    margin-top: 100px;
+    font-family: sans-serif;
+    color: white;
+    background-color: rgba(255, 255, 255,0.5);
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-left: 30%;
+    margin-right: 30%;
+    border-radius: 20px;
+    display: none;
 
+
+
+
+
+}
+#errordiv{
+    font-size: 50px;
+    text-align: center;
+    margin-top: 10%;
+    font-family: sans-serif;
+    color: red;
+    background-color: rgba(255, 255, 255,0.5);
+    border-radius: 20px;
+    /* height: 100px; */
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-left: 35%;
+    margin-right: 35%;
+    display: none;
+
+}
 
 
 
@@ -202,6 +249,9 @@ header{
     }
 }
 @media (min-width:900px) and (max-width:1023px){
+    body{
+        height: 115vh;
+    }
     #country{
         margin-left: -40px;
     }
@@ -217,7 +267,7 @@ header{
 }
 @media (min-width:769px) and (max-width:899.5px){
     body{
-        height: 100vh;
+        height: 117vh;
     }
     #country{
         display: none;
@@ -234,7 +284,7 @@ header{
 }
 @media (min-width:581px) and (max-width:768px){
     body{
-        height: 100vh;
+        height: 115vh;
     }
     #country{
         display: none;
@@ -270,7 +320,7 @@ header{
 }
 @media (min-width:481px) and (max-width:580px){
     body{
-        height: 100vh;
+        height: 110vh;
     }
     #country{
         display: none;

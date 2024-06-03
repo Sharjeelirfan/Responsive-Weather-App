@@ -13,7 +13,7 @@
         </div>
         <div id="formDiv">  
           <form id="form">
-            <input id="input" type="search" maxlength="100" />
+            <input id="input" type="search" maxlength="100" required />
             <button type="submit" id="btn">
               <img id="srhimg" src="./search-interface-symbol.png" alt="search" />
             </button>
@@ -23,6 +23,13 @@
       </header>
     
 
+      <div id="loading">
+
+      </div>
+
+      <div id="errordiv">
+
+      </div>
 
 
       <div id="body">
@@ -53,39 +60,39 @@
 
         <div id="forcast">
             <div id="day1old" class="oldWeather">
-                <p class="day">Day</p>
-                <p class="temp1">10°C</p>
-                <p class="temp2">20°C</p>
+                <p class="day" id="day1">Day</p>
+                <p class="temp1" id="day1-1">10°C</p>
+                <p class="temp2" id="day1-2">20°C</p>
             </div>
             <div id="day2old" class="oldWeather">
-                <p class="day">Day</p>
-                <p class="temp1">10°C</p>
-                <p class="temp2">20°C</p>
+                <p class="day" id="day2">Day</p>
+                <p class="temp1" id="day2-1">10°C</p>
+                <p class="temp2" id="day2-2">20°C</p>
             </div>
             <div id="day3old" class="oldWeather">
-                <p class="day">Day</p>
-                <p class="temp1">10°C</p>
-                <p class="temp2">20°C</p>
+                <p class="day" id="day3">Day</p>
+                <p class="temp1" id="day3-1">10°C</p>
+                <p class="temp2" id="day3-2">20°C</p>
             </div>
             <div id="day4old" class="oldWeather">
-                <p class="day">Day</p>
-                <p class="temp1">10°C</p>
-                <p class="temp2">20°C</p>
+                <p class="day" id="day4">Day</p>
+                <p class="temp1" id="day4-1">10°C</p>
+                <p class="temp2" id="day4-2">20°C</p>
             </div>
             <div id="day5old" class="oldWeather">
-                <p class="day">Day</p>
-                <p class="temp1">10°C</p>
-                <p class="temp2">20°C</p>
+                <p class="day" id="day5">Day</p>
+                <p class="temp1" id="day5-1">10°C</p>
+                <p class="temp2" id="day5-2">20°C</p>
             </div>
             <div id="day6old" class="oldWeather">
-                <p class="day">Day</p>
-                <p class="temp1">10°C</p>
-                <p class="temp2">20°C</p>
+                <p class="day" id="day6">Day</p>
+                <p class="temp1" id="day6-1">10°C</p>
+                <p class="temp2" id="day6-2">20°C</p>
             </div>
             <div id="day7old" class="oldWeather">
-                <p class="day">Day</p>
-                <p class="temp1">10°C</p>
-                <p class="temp2">20°C</p>
+                <p class="day" id="day7">Day</p>
+                <p class="temp1" id="day7-1">10°C</p>
+                <p class="temp2" id="day7-2">20°C</p>
             </div>
         </div>
 
@@ -96,6 +103,6 @@
 
       </div>
 
-    <script src="./app.js"></script>
+       <script src="./app.js"></script>
 </body>
 </html>
