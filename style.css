@@ -10,7 +10,7 @@ body{
     /* filter: blur(1px);   */
     backdrop-filter: blur(5px);
     width: 100%;
-    height: 98vh;
+    height: 105vh;
     box-sizing: border-box;
     /* position: absolute; */
 }
@@ -99,7 +99,7 @@ header{
     display: flex;
     justify-content: space-between;
     font-family:sans-serif;
-    color: white;
+    color: rgb(0, 0, 0);
     margin-left: 10%;
     margin-right: 10%;
     margin-top: 100px;
@@ -121,8 +121,14 @@ header{
 #cond{
     font-size:30px ;
     margin-top: 20px;
+    display: inline;
+    /* width: 100px;
+    
+    height: 50px; */
 }
-
+#condImg{
+    margin-bottom: -20px;
+}
 
 
 #left{
@@ -149,15 +155,15 @@ header{
 
 #forcast{
     display: flex;
-    justify-content:space-between;
+    justify-content:space-evenly;
     /* margin-left: 20px; */
     margin-left: 40px;
     margin-right: 40px;
     margin-top: 70px;
-    color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
     overflow-x: scroll;
     overflow-y: hidden;
-    border: 2px solid;
+    /* border: 2px solid; */
 }
 
 
@@ -165,10 +171,10 @@ header{
     height: 2px;
   }
   #forcast::-webkit-scrollbar-track {
-    background-color: #794312
+    background-color: transparent
   }
   #forcast::-webkit-scrollbar-thumb {
-    background-color: rgb(0, 162, 255);
+    background-color: transparent;
   }
 .oldWeather{
     height: 200px;
@@ -231,6 +237,11 @@ header{
 
 
 
+
+
+
+
+
 @media (min-width:1024px) and (max-width:1155px) {
     #country{
         margin-left: -40px;
@@ -257,7 +268,7 @@ header{
 }
 @media (min-width:900px) and (max-width:1023px){
     body{
-        height: 115vh;
+        height: 119vh;
     }
     #country{
         margin-left: -40px;
@@ -285,7 +296,7 @@ header{
 }
 @media (min-width:769px) and (max-width:899.5px){
     body{
-        height: 117vh;
+        height: 120vh;
     }
     #country{
         display: none;
@@ -317,7 +328,7 @@ header{
 }
 @media (min-width:581px) and (max-width:768px){
     body{
-        height: 115vh;
+        height: 119vh;
     }
     #country{
         display: none;
@@ -408,7 +419,7 @@ header{
         display: flex;
         justify-content: center;
         margin-top: 80px;
-        color: white;
+        color: rgb(0, 0, 0);
     }
     #tempquery{
         font-size: 100px;
@@ -428,6 +439,10 @@ header{
         font-size: 50px;
         margin-left: 20px;
         margin-top: 20px;
+        display: block;
+    }
+    #imgquery{
+        display: block;
     }
     #errordiv{
         /* padding-right: 30px;  */
@@ -472,7 +487,7 @@ header{
         display: inline;
         text-align: center;
         /* margin-top: 80px; */
-        color: white;
+        color: rgb(0, 0, 0);
     }
     #tempquery{
         font-size: 70px;
@@ -492,7 +507,14 @@ header{
     #condquery{
         font-size: 50px;
         margin-left: 20px;
+        /* display: block; */
         /* margin-top: 20px; */
+    }
+    #imgquery{
+        /* display: block; */
+        text-align: center;
+        margin-left: 0;
+        margin-right: 0;
     }
     #loading{
         font-size: 40px;
