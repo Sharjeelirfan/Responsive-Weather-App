@@ -37,10 +37,7 @@
     const day1 = document.querySelector("#day1")
     const day2 = document.querySelector("#day2")
     const day3 = document.querySelector("#day3")
-    const day4 = document.querySelector("#day4")
-    const day5 = document.querySelector("#day5")
-    const day6 = document.querySelector("#day6")
-    const day7 = document.querySelector("#day7")
+    
 
     const day1min = document.querySelector("#day1-1")
     const day1max = document.querySelector("#day1-2")
@@ -48,14 +45,7 @@
     const day2max = document.querySelector("#day2-2")
     const day3min = document.querySelector("#day3-1")
     const day3max = document.querySelector("#day3-2")
-    const day4min = document.querySelector("#day4-1")
-    const day4max = document.querySelector("#day4-2")
-    const day5min = document.querySelector("#day5-1")
-    const day5max = document.querySelector("#day5-2")
-    const day6min = document.querySelector("#day6-1")
-    const day6max = document.querySelector("#day6-2")
-    const day7min = document.querySelector("#day7-1")
-    const day7max = document.querySelector("#day7-2")
+    
 
 
     const errordiv = document.querySelector("#errordiv")
@@ -198,9 +188,9 @@
 
             
             
-            const days = [day1 ,day2 ,day3 ,day4 ,day5 ,day6, day7 ]
-            const daysMin = [day1min, day2min, day3min, day4min, day5min, day6min, day7min]
-            const daysMax = [day1max, day2max, day3max, day4max, day5max, day6max, day7max]
+            const days = [day1 ,day2 ,day3 ]
+            const daysMin = [day1min, day2min, day3min ]
+            const daysMax = [day1max, day2max, day3max ]
             
             result.forecast.forecastday.forEach((forecastDay, index) => {
                 daysMin[index].innerHTML = `Min <br>${Math.floor(forecastDay.day.mintemp_c)}°C`
